@@ -4,10 +4,9 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 */
 /* 
-    Created on : 3 mars 2016, 15:46:59
+    Created on : 4 mars 2016, 11:35:23
     Author     : admin
 */
-
 body{
     background-color: black;
 
@@ -18,21 +17,22 @@ body{
 .titre{
     text-align: center;
     font-weight: bold;
+    font-family: monospace;
     font-size: 100px;
-    color: gold;
-    background-image: url(../Images/bobine-cinema.gif);
+    color: red;
+    background-image: url(../Images/anonymous-couverture_facebook.jpg);
     height: 150px;
 }
 
 .menu{
     text-align: center;
-    font-weight: lighter;
-    font-family: cursive;
+    font-weight: bold;
+    font-family: monospace;
     font-size: x-large;
-    color: darkblue;
-    background-color: aqua;
-    border-style: dotted;
-    border-color: white;
+    color: black;
+    background-color: red;
+    border-style: groove;
+    border-color: darkred;
     border-width: 5px 0px 5px 0px;
 }
 
@@ -46,50 +46,43 @@ body{
 
 .contenu{
     text-align: justify;
-    font-family: monospace;
+    font-family: initial;
     font-size: medium;
     color: black;
 }
 
 a:link, a:visited, a:hover, a:focus, a:active{
-    font-style: oblique;
-    color: blue;
+    font-style: inherit;
+    color: whitesmoke;
 }
+
 .a{
-    background-color: palegoldenrod;
+    background-color: darkgoldenrod; 
     font-size: 20px; 
     text-align: center; 
-    font-family: monospace;
-    border-style: outset;
+    font-family: fantasy;
+    border-style: groove;
     border-color: gold;
     border-width: 3px 3px 3px 3px;
 }
 
 .b{
-    background-color: paleturquoise;
+    background-color: firebrick;
     font-size: 20px; 
     text-align: center; 
-    font-family: monospace;
-    border-style: outset;
-    border-color: turquoise;
+    font-family: fantasy;
+    border-style: groove;
+    border-color: brown;
     border-width: 3px 3px 3px 3px;
 }
 
 .c{
-    background-color: palegreen;
+    background-color: darkgoldenrod; 
     font-size: 20px; 
     text-align: center; 
-    font-family: monospace;
-    border-style: outset;
-    border-color: limegreen;
+    font-family: fantasy;
+    border-style: groove;
+    border-color: gold;
     border-width: 3px 3px 3px 3px;
 }
 
-.homepage{
-    text-align: center; 
-    font-family: fantasy; 
-    font-size: xx-large; 
-    color: red;
-    width: 10px 50px 10px 50px;
-    background-image: url(../Images/bonhomme-blanc.png);
-    }
